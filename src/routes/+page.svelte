@@ -31,8 +31,10 @@
       like this two-node raspberry pi kubernetes cluster.
       <br />
       it runs my projects, including this website.
-      <a href="https://github.com/thdxg/homelab" target="_blank">
-        (full setup)
+      <a
+        href="https://grafana.thdxg.dev/public-dashboards/1f9aad71e31f46c3a5bdf067b1022fd4"
+        target="_blank">
+        dashboard →
       </a>
       <br />
       i also like working in the terminal.
