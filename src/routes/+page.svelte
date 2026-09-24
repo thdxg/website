@@ -114,6 +114,16 @@
       </li>
       <li>
         <span class="marker">⎿</span>
+        <a
+          href="https://github.com/thdxg/macterm"
+          target="_blank"
+          class="accent">
+          homelab
+        </a>
+        — personal datacenter; a kubernetes cluster on raspberry pi
+      </li>
+      <li>
+        <span class="marker">⎿</span>
         <a href="https://github.com/thdxg/helix" target="_blank" class="accent">
           helix
         </a>
