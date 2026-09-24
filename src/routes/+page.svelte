@@ -115,7 +115,7 @@
       <li>
         <span class="marker">⎿</span>
         <a
-          href="https://github.com/thdxg/macterm"
+          href="https://github.com/thdxg/homelab"
           target="_blank"
           class="accent">
           homelab
