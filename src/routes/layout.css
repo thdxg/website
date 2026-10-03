@@ -16,8 +16,8 @@ ul {
   @apply list-inside list-disc leading-relaxed text-neutral-400;
 }
 
-main a {
-  @apply underline;
+a {
+  @apply text-emerald-400;
 }
 
 /* git-log style list — one row per entry: "* <label>" */
@@ -27,11 +27,6 @@ main a {
 
 .tree .marker {
   @apply mr-2 text-neutral-600 no-underline select-none;
-}
-
-/* warm accent used for the entry title / primary link */
-.accent {
-  @apply text-[#c8956a];
 }
 
 /* dimmed commit hash */
