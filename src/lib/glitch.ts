@@ -73,6 +73,7 @@ export type GlitchConfig = {
     minMs?: number;
     maxMs?: number;
     maxDelayMs?: number;
+    density?: number; // fraction of characters that animate, 0–1
   };
   pattern?: {
     selector?: string;
@@ -88,6 +89,7 @@ const DEFAULTS = {
     minMs: 300,
     maxMs: 500,
     maxDelayMs: 300,
+    density: 0.3,
   },
   pattern: {
     selector: ".img-bg",
@@ -148,6 +150,7 @@ export function glitch(config: GlitchConfig = {}) {
   for (const root of document.querySelectorAll<HTMLElement>(initial.selector)) {
     wrap(root);
     for (const s of root.querySelectorAll<HTMLElement>(`[${ORIG_ATTR}]`)) {
+      if (Math.random() >= initial.density) continue;
       glitchSpan(s, initial.minMs, initial.maxMs, initial.maxDelayMs);
     }
   }

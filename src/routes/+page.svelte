@@ -21,7 +21,7 @@
   </nav>
 </header>
 
-<main class="glitch space-y-12">
+<main class="glitch glitch-initial space-y-12">
   <section id="intro">
     <p>
       terminal lover, student, oss maintainer
@@ -40,7 +40,7 @@
     <p>
       this is my bare-metal k8s cluster
       <br />
-      running my projects like this website
+      running projects like this website
       <br />
       see
       <a

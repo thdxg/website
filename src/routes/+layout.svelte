@@ -5,7 +5,7 @@
 
   let { children } = $props();
 
-  onMount(() => glitch());
+  onMount(() => glitch({ initial: { density: 0.4 } }));
 </script>
 
 <svelte:head>
