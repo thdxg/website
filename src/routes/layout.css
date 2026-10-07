@@ -1,42 +1,64 @@
 @import "tailwindcss";
 
+/* eyesclosed — low-chroma theme for #0B0D0E */
+@theme {
+  --color-bg: #0b0d0e;
+  --color-selection: #323644;
+  --color-fg: #b7b8c4;
+  --color-heading: #d3cee4;
+  --color-link: #b1c8d0;
+  --color-list: #7498ae;
+  --color-doc: #868a9b;
+  --color-punct: #5b5e6d;
+  --color-linenr: #393b48;
+  --color-function: #d5cccc;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+::selection {
+  @apply bg-selection text-function;
+}
+
 body {
-  @apply mx-auto w-full max-w-3xl bg-black px-5 pt-24 pb-10 font-["Geist_Mono",ui-monospace,monospace] font-light text-white md:pt-40 md:pb-20;
+  @apply bg-bg text-fg mx-auto w-full max-w-3xl px-5 pt-24 pb-10 font-["Geist_Mono",ui-monospace,monospace] font-light md:pt-40 md:pb-20;
 }
 
 h1 {
-  @apply text-4xl;
+  @apply text-heading text-4xl;
 }
 
 p {
-  @apply leading-relaxed text-neutral-400;
+  @apply text-fg leading-relaxed;
 }
 
 ul {
-  @apply list-inside list-disc leading-relaxed text-neutral-400;
+  @apply text-fg list-inside list-disc leading-relaxed;
 }
 
 a {
-  @apply text-emerald-400;
+  @apply text-link decoration-link/40 underline underline-offset-3;
 }
 
 /* git-log style list — one row per entry: "* <label>" */
 .tree {
-  @apply list-none space-y-2 pl-0 leading-relaxed text-neutral-400;
+  @apply text-fg list-none space-y-2 pl-0 leading-relaxed;
 }
 
 .tree .marker {
-  @apply mr-2 text-neutral-600 no-underline select-none;
+  @apply text-list mr-2 no-underline select-none;
 }
 
 /* dimmed commit hash */
 .hash {
-  @apply text-neutral-500 no-underline;
+  @apply text-doc no-underline;
 }
 
 /* dimmed [tag] annotations */
 .tag {
-  @apply text-neutral-600 no-underline;
+  @apply text-punct no-underline;
 }
 
 picture {

@@ -15,8 +15,7 @@
   <h1 class="glitch-initial">Ethan Lee</h1>
   <nav class="flex gap-4">
     {#each social as link}
-      <a href={link.href} target="_blank" class="underline underline-offset-3"
-        >{link.name}</a>
+      <a href={link.href} target="_blank">{link.name}</a>
     {/each}
   </nav>
 </header>

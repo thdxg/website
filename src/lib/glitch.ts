@@ -94,7 +94,7 @@ const DEFAULTS = {
   pattern: {
     selector: ".img-bg",
     fontSize: 40,
-    color: "#404040",
+    color: "#393B48",
   },
 };
 
