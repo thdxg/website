@@ -6,7 +6,7 @@
   --color-selection: #323644;
   --color-fg: #b7b8c4;
   --color-heading: #d3cee4;
-  --color-link: #b1c8d0;
+  --color-link: #c8dae1;
   --color-list: #7498ae;
   --color-doc: #868a9b;
   --color-punct: #5b5e6d;
@@ -39,7 +39,7 @@ ul {
 }
 
 a {
-  @apply text-link decoration-link/40 underline underline-offset-3;
+  @apply text-link decoration-link/50 underline underline-offset-3;
 }
 
 /* git-log style list — one row per entry: "* <label>" */
