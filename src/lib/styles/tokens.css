@@ -1,0 +1,196 @@
+/* eyesclosed — generated from tokens.json */
+:root, [data-theme="dark"] {
+  --page: #0b0d0e;
+  --surface: var(--bg-alt);
+  --surface-hover: var(--indent);
+  --rule: var(--indent);
+  --rule-strong: var(--md-rule);
+  --control-edge: var(--punct);
+  --ink-bright: var(--md-bold);
+  --ink-heading: var(--md-heading);
+  --ink: var(--text);
+  --ink-muted: var(--doc);
+  --ink-faint: var(--attribute);
+  --ink-ghost: var(--punct);
+  --link: var(--md-link);
+  --link-line: rgba(182, 204, 211, 0.4);
+  --accent: var(--keyword);
+  --highlight: var(--constant);
+  --code-ink: var(--md-code);
+  --focus-ring: var(--md-link);
+  --selection-bg: var(--selection);
+  --selection-ink: var(--function);
+  --on-bright: var(--page);
+  --bg: #111214;
+  --bg-alt: #1a1b21;
+  --cursorline: #18171d;
+  --indent: #1f1f26;
+  --md-rule: #2c2f39;
+  --selection: #383b4a;
+  --focus-bg: #464957;
+  --linenr: #3b3d4a;
+  --inlay: #505261;
+  --linenr-active: #9799aa;
+  --status-fg: #9799aa;
+  --mode: #779bb0;
+  --cursor: #cdcfd1;
+  --text: #bbbcc7;
+  --constant: #ecd8ae;
+  --escape: #ecd8ae;
+  --function: #d8d0d0;
+  --string: #d9cbae;
+  --type: #b7c8cb;
+  --macro: #b7c8cb;
+  --variable: #bbbcc7;
+  --parameter: #bab6cb;
+  --lifetime: #bdb2b9;
+  --property: #a3a6b5;
+  --builtin: #91a5aa;
+  --selfvar: #ad97a9;
+  --keyword: #779bb0;
+  --namespace: #9194a4;
+  --operator: #8d8fa0;
+  --doc: #898d9e;
+  --attribute: #7e7e94;
+  --comment: #696d7d;
+  --punct: #5e6170;
+  --md-bold: #e3d9d9;
+  --md-heading: #d7d2e6;
+  --md-code: #d9cbae;
+  --md-link: #b6ccd3;
+  --md-italic: #bbbcc7;
+  --md-quote: #898d9e;
+  --md-hmark: #7f879e;
+  --md-list: #779bb0;
+  --md-url: #5e6170;
+  --md-fence: #5e6170;
+  --error: #ffaba2;
+  --warning: #c18e5f;
+  --info: #9eb6c3;
+  --hint: #7e7f95;
+  --added: #5f7986;
+  --modified: #5b6370;
+  --removed: #90655d;
+  --ansi-0: #21212a;
+  --ansi-1: #e3979b;
+  --ansi-2: #7aa7ae;
+  --ansi-3: #dec79c;
+  --ansi-4: #9eb6c3;
+  --ansi-5: #9187a8;
+  --ansi-6: #d8dadb;
+  --ansi-7: #c2c4cf;
+  --ansi-8: #4a4b5c;
+  --ansi-9: #edadb1;
+  --ansi-10: #95bcc3;
+  --ansi-11: #ead8b6;
+  --ansi-12: #b9ced9;
+  --ansi-13: #aca4c3;
+  --ansi-14: #ebebeb;
+  --ansi-15: #e9e9f0;
+  --prompt-dir: #d1d3d4;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-40: 160px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+  --width-label: 200px;
+  --width-gutter: 48px;
+  --width-text: 640px;
+  --width-page: 888px;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --font-sans: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.display {
+  font-family: var(--font-sans);
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.title {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.heading {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.subheading {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.lede {
+  font-family: var(--font-sans);
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.small {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.caption {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.code {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}

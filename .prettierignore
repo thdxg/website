@@ -4,3 +4,6 @@ build
 dist
 bun.lock
 package-lock.json
+
+# design system files, vendored verbatim from the eyesclosed system
+src/lib/styles
