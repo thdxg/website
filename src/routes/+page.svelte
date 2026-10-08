@@ -15,13 +15,18 @@
   const projects = [
     {
       name: "macterm",
-      href: "https://github.com/thdxg/macterm",
+      href: "https://macterm.thdxg.dev",
       desc: "A lightweight macOS terminal with vertical tabs, session persistence and native UI.",
     },
     {
       name: "homelab",
-      href: "https://github.com/thdxg/homelab",
+      href: "https://headlamp.thdxg.dev",
       desc: "A personal datacenter: a Kubernetes cluster on Raspberry Pi.",
+    },
+    {
+      name: "eyesclosed",
+      href: "https://eyesclosed.thdxg.dev",
+      desc: "A minimal low-chroma dark theme.",
     },
     {
       name: "helix",
@@ -145,6 +150,12 @@
 
 <style>
   /* Section labels, set like the system's sidebar labels: italic, in comment. */
+  /* Project descriptions in the system's small style (14/22). */
+  .ec-entry-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   .ec-section-body > .section-label {
     font-size: 12px;
     line-height: 16px;
