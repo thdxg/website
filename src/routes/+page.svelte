@@ -87,10 +87,7 @@
 <main>
   <section class="ec-grid ec-hero">
     <h1>Ethan Lee</h1>
-    <p class="ec-hero-lede">
-      Terminal lover / Student / OSS<br />
-      Building things in web and cloud
-    </p>
+    <p class="ec-hero-lede">Building things for web and terminal</p>
     <div class="ec-hero-actions">
       {#each links as link, i (link.href)}
         {#if i > 0}<span aria-hidden="true">·</span>{/if}
