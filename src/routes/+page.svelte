@@ -80,12 +80,9 @@
 </script>
 
 <main>
-  <section class="ec-grid ec-hero">
+  <section class="ec-hero">
     <h1>Ethan Lee</h1>
-    <p class="ec-hero-lede">
-      Terminal lover / Student / OSS<br />
-      Building things in web and cloud
-    </p>
+    <p class="ec-hero-lede">Building things in the web</p>
     <div class="ec-hero-actions">
       {#each links as link, i (link.href)}
         {#if i > 0}<span aria-hidden="true">·</span>{/if}
@@ -99,8 +96,8 @@
   </section>
 
   <section class="ec-section">
-    <h2 class="ec-section-label">Experience</h2>
-    <div class="ec-section-body">
+    <div class="ec-section-body ec-span">
+      <h2 class="section-label">Experience</h2>
       <ul class="ec-entries">
         {#each experience as entry (entry.title)}
           <li class="ec-entry">
@@ -113,8 +110,8 @@
   </section>
 
   <section class="ec-section">
-    <h2 class="ec-section-label">Projects</h2>
-    <div class="ec-section-body">
+    <div class="ec-section-body ec-span">
+      <h2 class="section-label">Projects</h2>
       <div class="projects">
         <span
           class="highlight"
@@ -147,6 +144,16 @@
 </main>
 
 <style>
+  /* Section labels, set like the system's sidebar labels: italic, in comment. */
+  .ec-section-body > .section-label {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.04em;
+    color: var(--comment);
+  }
+
   /* A whole project row is the link. */
   .ec-entry-link {
     margin: calc(-1 * var(--space-2)) calc(-1 * var(--space-3));
