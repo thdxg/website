@@ -9,7 +9,7 @@
   <title>Ethan Lee</title>
 </svelte:head>
 
-<div class="ec-page">
+<div class="ec-page" style:--width-page="640px">
   {@render children()}
 
   <footer class="ec-footer">
